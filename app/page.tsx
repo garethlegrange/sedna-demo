@@ -1,9 +1,5 @@
-import LayoutSwitch from "@/components/LayoutSwitch";
+import Dashboard from "@/components/Dashboard";
 
 export default function Home() {
-  return (
-    <main>
-      <LayoutSwitch />
-    </main>
-  );
+  return <Dashboard />;
 }
